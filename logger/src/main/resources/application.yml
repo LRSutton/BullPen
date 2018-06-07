@@ -1,0 +1,12 @@
+
+service:
+  logger:
+    path: /opt/Bullpen/./logs
+    file:
+      records: ./records.log
+      digest: ./digest.log
+      create: true
+
+logging:
+  level:
+    ROOT: info
